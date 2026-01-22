@@ -7,6 +7,7 @@ header{
     background-color:rgb(229, 221, 197);
     color:white; 
     font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 3em; 
     position: fixed; 
     width: 100%;
@@ -28,8 +29,9 @@ ul {
 }
 
 body{
-    background-color: rgb(241, 238, 220) ;
-    margin: 0;
+  background-color: rgb(241, 238, 220) ;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 video {
@@ -40,8 +42,8 @@ video {
 }
 
 section{
-    position: relative;
-    top: 60px;
+  position: relative;
+  top: 60px;
 }
 
 .texto_encima {
@@ -50,6 +52,49 @@ section{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color:white;
+  font-size:4em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 
+}
+
+.populares {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.populares {
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.experiencias {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.textoimg {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: black;
+    padding-top: 10px;
+}
+
+.populares div{
+    width:20%;
 }
